@@ -1,2 +1,2 @@
-# Juego-de-cartas
-Juego de cartas con javascript
+# naipes
+juegos de naipes con javascript

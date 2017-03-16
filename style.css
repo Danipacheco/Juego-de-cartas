@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'playing_cardsregular';
+    src: url('fuentes/cards-webfont.woff2') format('woff2'),
+         url('fuentes/cards-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.fuente {
+    font-family: 'playing_cardsregular';
+    font-size: 8em;
+}
+
+
+.tapete{
+            width: 80%;
+            margin: 0 auto;
+            background-color: forestgreen;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+        .carta{
+            width: 120px;
+            height: 180px;
+            border: solid 1px  #333;
+            border-radius: 16px;
+            background-color: whitesmoke;
+            margin: 0.4em;
+            box-shadow: 5px 5px;
+            font-size: 1em;
+            color: purple;
+            position: relative;
+            padding-top: 1.5em;
+            padding-right: 1.2em;
+            font-weight: oblique;
+        }
+.numcart{
+    position: absolute;
+    color: black;
+    font-size: 1em;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+}
+.palo{
+    position: absolute;
+    color: purple;
+    font-size: 1em;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+}
+.numero{
+    position: absolute;
+    color: purple;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+
+
+/* CAMBIAR EL COLOR  A LAS CARTAS */
